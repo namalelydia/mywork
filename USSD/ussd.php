@@ -1,15 +1,10 @@
 <?php
+header("content-type:text/plane");
 
-header("content_type:text/plane");
-
-$phone_number = $_POST['phone-number'];
-
+$phone-number=$_POST['phonenumber'];
 $textfromuser = $_POST['text'];
-
 $sessionID = $_POST['session'];
+$servicecode = $_POST['servicecode'];
 
-$servicecode =$_post['servicecode'];
-
-echo"CON welcome to the climate portal";
-
+echo "welcome to the climate portal";
 
