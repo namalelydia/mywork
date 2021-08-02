@@ -4,7 +4,9 @@
 
 	$results = $mysqli_connection->query("SELECT ID,NAME FROM districts ORDER BY ID ASC");
 
-	foreach($results as $key => $value){
+	foreach(
+		$results AS $key => $value
+	       ){
 		
 		$id=$value["ID"];
 		$name=$value["NAME"];
